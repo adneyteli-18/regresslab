@@ -13,7 +13,7 @@ Live deployment: **[Add the Vercel URL here]**
 - Built-in Scikit-learn Diabetes dataset (`src/data/diabetes.json`).
 - CSV upload with numeric-column detection.
 - Deterministic train/test splitting with optional training-only standardisation.
-- Normal Equation and Gradient Descent training methods.
+- Ordinary Least Squares Normal Equation training with a numerically stable QR solver.
 - Actual MAE, MSE, RMSE, R², adjusted R², predictions, coefficients, residuals,
   and responsive Recharts visualisations.
 - Browser-local experiment history and responsive navigation.
