@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Papa from "papaparse";
-import { BookOpen, Check, ChevronDown, ChevronLeft, ChevronRight, Database, FileText, GraduationCap, History, Lightbulb, Menu, Scissors, Target, Trash2, Upload, X } from "lucide-react";
+import { BookOpen, Check, ChevronDown, ChevronLeft, ChevronRight, Database, FileText, GraduationCap, History, Lightbulb, Menu, Scissors, Settings2, Target, Trash2, Upload, X } from "lucide-react";
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import studentMat from "./data/student-mat.json";
 import { formatNumber, formatPercent } from "./lib/format";
